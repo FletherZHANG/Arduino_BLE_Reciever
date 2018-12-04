@@ -52,12 +52,12 @@ void loop()
     blinkled();
   }
  
-/* Recieve data from console，and then send to bluetooth
+ Recieve data from console，and then send to bluetooth
   if(Serial.available())
   {
     char c = Serial.read();
     Serial.write(c);
     Bluetooth.write(c);  
   }
- */
+
 }
